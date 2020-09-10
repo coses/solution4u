@@ -1,7 +1,6 @@
 RewriteEngine On
-RewriteCond %{HTTP_HOST} ^.+$ / [R=302,NC,L]
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ / [R,L]
+RewriteRule ^(.*)$ https://solution4u.herokuapp.com/$1 [R,L]
 
 #RewriteEngine on
 #RewriteCond %{REQUEST_URI} !^/index.php$
