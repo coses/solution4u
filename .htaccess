@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/index.html$
+RewriteCond %{REQUEST_URI} !\.(gif|jpe?g|png|css|js|eot|svg|ttf|woff)$
+#RewriteRule .* /index.html [L,R=302]
+RewriteRule ^.+$ / [R=302,NC,L]
+
+#RedirectMatch 403 ^/folder/file.php$
+
