@@ -38,6 +38,7 @@
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="Solution4U, agencia de detectives privados roleplay">
       <meta name="twitter:description" content="Solution4U, la agencia de detectives que le ayudará a resolver todos sus problemas, o al menos lo intentará.">
+      <meta name="twitter:image" content="http://solution4u.c1.biz/favicon-twittercard.png">
       <meta name="twitter:image:src" content="https://solution4u.herokuapp.com/favicon-twittercard.png">
    </head>
    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
