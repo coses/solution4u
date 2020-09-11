@@ -26,6 +26,19 @@
       <link rel="mask-icon" href="safari-pinned-tab.svg" color="#2f0a02">
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="theme-color" content="#ffffff">
+      
+      <meta property="og:title" content="Solution4U, agencia de detectives privados roleplay">
+      <meta property="og:type" content="website">
+      <meta property="og:image" content="https://solution4u.herokuapp.com/favicon-ogimage.png">
+      <meta property="og:site_name" content="Solution4U">
+      <meta property="og:description" content="Solution4U, la agencia de detectives que le ayudará a resolver todos sus problemas, o al menos lo intentará.">
+      <meta property="og:image:width" content="1200">
+      <meta property="og:image:height" content="630">
+    
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:title" content="Solution4U, agencia de detectives privados roleplay">
+      <meta name="twitter:description" content="Solution4U, la agencia de detectives que le ayudará a resolver todos sus problemas, o al menos lo intentará.">
+      <meta name="twitter:image:src" content="https://solution4u.herokuapp.com/favicon-twittercard.png">
    </head>
    <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
       <div class="site-wrap">
