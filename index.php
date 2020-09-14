@@ -123,18 +123,21 @@
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">01.</div>
                         <h2 class="text-primary">Discreción</h2>
+                        <p class="mb-4">Los trabajos que realizamos los hacemos de la forma más discreta y natural posible.</p>
                      </div>
                   </div>
                   <div class="col-md-6 col-lg-4">
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">02.</div>
                         <h2 class="text-primary">Privacidad</h2>
+                        <p class="mb-4">Cada cliente es un mundo distinto, y todo lo que nos cuente quedará entre nosotros.</p>
                      </div>
                   </div>
                   <div class="col-md-6 col-lg-4">
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">03.</div>
                         <h2 class="text-primary">Profesionalidad</h2>
+                        <p class="mb-4">Cada caso es distinto, así que antes de nada lo analizamos para encontrar la solución más óptima.</p>
                         <?php /*<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
                         <ul class="list-unstyled ul-check primary">
                            <li>Social Media</li>
@@ -287,7 +290,7 @@
                      </div>
                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="unit-4 d-flex">
-                           <div class="unit-4-icon mr-4"><span class="text-primary icon-camera_enhance"></span></div>
+                           <div class="unit-4-icon mr-4"><span class="text-primary icon-handshake-o"></span></div>
                            <div>
                               <h3>Colaboraciones</h3>
                               <p>Colaboraremos con quien haga falta para lograr resolver el objetivo del caso solicitado.</p>
