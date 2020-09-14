@@ -51,28 +51,20 @@
             </div>
             <div class="site-mobile-menu-body"></div>
          </div>
-         <!--
-            <div class="border-bottom top-bar py-2 bg-dark" id="home-section">
+         <?php /*
+            <div class="border-bottom top-bar py-2 bg-brown">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-6">
+                  <div class="col-md-12">
                     <p class="mb-0">
-                      <span class="mr-3"><strong class="text-white">Phone:</strong> <a href="tel://#">+1 234 5678 9101</a></span>
-                      <span><strong class="text-white">Email:</strong> <a href="#">info@yourdomain.com</a></span>
+                      <span><strong class="text-white">Email:</strong> <a href="mailto:agencia@solution4u.com">agencia@solution4u.com</a></span>
+                      <span class="mr-3"><strong class="text-white">Teléfono:</strong> <a href="tel://#">Ninguno aún</a> | <a href="tel://#">Ninguno aún</a></span>
                     </p>
-                  </div>
-                  <div class="col-md-6">
-                    <ul class="social-media">
-                      <li><a href="#" class="p-2"><span class="icon-facebook"></span></a></li>
-                      <li><a href="#" class="p-2"><span class="icon-twitter"></span></a></li>
-                      <li><a href="#" class="p-2"><span class="icon-instagram"></span></a></li>
-                      <li><a href="#" class="p-2"><span class="icon-linkedin"></span></a></li>
-                    </ul>
                   </div>
                 </div>
               </div> 
             </div>
-            -->
+         */ ?>
          <header class="site-navbar py-4 bg-white js-sticky-header site-navbar-target">
             <div class="container">
                <div class="row align-items-center">
@@ -89,14 +81,14 @@
                      <nav class="site-navigation position-relative text-right">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                            <li><a href="#home-section" class="nav-link">Inicio</a></li>
-                           <!--<li><a href="#work-section" class="nav-link">Trabajos</a></li>-->
+                           <?php /* <li><a href="#work-section" class="nav-link">Trabajos</a></li> */ ?>
                            <li>
-                              <!--class="has-children"-->
+                              <?php /* class="has-children" */ ?>
                               <a href="#about-section" class="nav-link">Sobre nosotros</a>
-                              <!--<ul class="dropdown">
+                              <?php /*<ul class="dropdown">
                                  <li><a href="#about-section">Especialidades</a></li>
                                  <li><a href="#team-section">El equipo</a></li>
-                                 </ul>-->
+                                 </ul> */ ?>
                            </li>
                            <li>
                               <a href="#services-section" class="nav-link">Servicios</a>
@@ -117,7 +109,7 @@
                         <div class="col-md-8 text-center">
                            <h1>Investigamos <span class="typed-words"></span></h1>
                            <!--<p>El contenido de esta web es utilizado para juegos de rol, nada es real.</p>-->
-                           <!--<div><a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="btn btn-primary btn-md">Watch Video</a></div>-->
+                           <?php /*<div><a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="btn btn-primary btn-md">Watch Video</a></div> */ ?>
                         </div>
                      </div>
                   </div>
@@ -131,49 +123,106 @@
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">01.</div>
                         <h2 class="text-primary">Discreción</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-                        <ul class="list-unstyled ul-check primary">
-                           <li>Customer Experience</li>
-                           <li>Product Management</li>
-                           <li>Proof of Concept</li>
-                        </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-lg-4">
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">02.</div>
                         <h2 class="text-primary">Privacidad</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
-                        <ul class="list-unstyled ul-check primary">
-                           <li>Web Design</li>
-                           <li>Branding</li>
-                           <li>Web &amp; App Development</li>
-                        </ul>
                      </div>
                   </div>
                   <div class="col-md-6 col-lg-4">
                      <div class="p-3 box-with-humber">
                         <div class="number-behind">03.</div>
                         <h2 class="text-primary">Profesionalidad</h2>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
+                        <?php /*<p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et praesentium eos nulla qui commodi consectetur beatae fugiat. Veniam iste rerum perferendis.</p>
                         <ul class="list-unstyled ul-check primary">
                            <li>Social Media</li>
                            <li>Paid Campaigns</li>
                            <li>Marketing &amp; SEO</li>
-                        </ul>
+                        </ul> */ ?>
                      </div>
                   </div>
                </div>
             </div>
          </section>
+         <?php /*
+            <div class="site-section" id="about-section">
+              <div class="container">
+                <div class="row mb-5">
+                  
+                  <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+                    <img src="images/about_1.jpg" alt="Image" class="img-fluid rounded">
+                  </div>
+                  <div class="col-md-6 order-md-1" data-aos="fade">
+            
+                    <div class="row">
+            
+                      <div class="col-12">
+                        <div class="text-left pb-1">
+                          <h2 class="text-black h1 site-section-heading">Sobre nosotros</h2>
+                        </div>
+                      </div>
+                      <div class="col-12 mb-4">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
+                      </div>
+                      <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
+                        <div class="unit-4">
+                          <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
+                          <div>
+                            <h3>Web &amp; Mobile Specialties</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
+                            <p class="mb-0"><a href="#">Learn More</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
+                        <div class="unit-4">
+                          <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-extension"></span></div>
+                          <div>
+                            <h3>Intuitive Thinkers</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
+                            <p class="mb-0"><a href="#">Learn More</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            */ ?>
          <div class="site-section border-bottom" id="about-section">
             <div id="team-section">
                <div class="container">
+                  <div class="row mb-5">
+                          <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
+                            <img src="images/about_1.jpg" alt="Image" class="img-fluid rounded">
+                          </div>
+                          <div class="col-md-6 order-md-1" data-aos="fade">
+                    
+                            <div class="row">
+                    
+                              <div class="col-12">
+                                <div class="text-left pb-1">
+                                  <h2 class="text-black h1 site-section-heading">Sobre nosotros</h2>
+                                </div>
+                              </div>
+                              <div class="col-12 mb-4">
+                                <p class="lead">Somos una agencia de detectives que llevamos trabajando en el sector durante mas de 5 años , lo cual nos hace tener una gran experiencia y prometemos resultados inmediatos. Estamos situados en.....</p>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div>
+                  <?php /*
                   <div class="row justify-content-center mb-5">
                      <div class="col-md-7 text-center">
                         <h2 class="text-black h1 site-section-heading">Sobre nosotros</h2>
                      </div>
                   </div>
+                  */ ?>
                   <div class="row">
                      <div class="col-md-6 col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="200">
                         <div class="person text-center">
@@ -195,14 +244,14 @@
                               <div class="center_icon"><span class="icon icon-contact_phone"></span>Ninguno todavía</div>
                               <!--<div class="center_icon"><span class="icon icon-contact_mail"></span>rolandbayer@solution4u.com</div>-->
                            </div>
-                           <!--
+                           <?php /*
                               <ul class="ul-social-circle">
                                 <li><a href="#"><span class="icon-facebook"></span></a></li>
                                 <li><a href="#"><span class="icon-twitter"></span></a></li>
                                 <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                 <li><a href="#"><span class="icon-instagram"></span></a></li>
                               </ul>
-                              -->
+                            */ ?>
                         </div>
                      </div>
                   </div>
@@ -223,8 +272,7 @@
                            <div class="unit-4-icon mr-4"><span class="text-primary icon-face"></span></div>
                            <div>
                               <h3>Particulares</h3>
-                              <p>Para averiguar qué está haciendo esa persona que actúa de forma sospechosa.</p>
-                              <!--<p><a href="#">Learn More</a></p>-->
+                              <p>Si quiere averiguar a qué se debe ese extraño comportamiento de alguien que conoce le podremos resolver sus dudas.</p>
                            </div>
                         </div>
                      </div>
@@ -233,7 +281,7 @@
                            <div class="unit-4-icon mr-4"><span class="text-primary icon-suitcase"></span></div>
                            <div>
                               <h3>Laborales</h3>
-                              <p>Por si un trabajador está faltando al trabajo, se ha dado de baja de forma dudosa, o parece alguien sospechoso.</p>
+                              <p>¿Tiene un trabajador que se ha dado de baja de forma un tanto dudosa? ¿O sospecha de que incumpla alguna norma?</p>
                            </div>
                         </div>
                      </div>
@@ -241,8 +289,8 @@
                         <div class="unit-4 d-flex">
                            <div class="unit-4-icon mr-4"><span class="text-primary icon-camera_enhance"></span></div>
                            <div>
-                              <h3>Cámaras ¿o mejor colaboraciones?</h3>
-                              <p>Instalaciones de cámaras ocultas y todo eso. Es que el tema de las cámaras es más complicado de rolear. Colaboraciones sería que podemos unirnos a alguien, tipo a los polis, o alguna banda, en caso de que necesitaran una información y no quieren arriesgarse a ser descubiertos.</p>
+                              <h3>Colaboraciones</h3>
+                              <p>Colaboraremos con quien haga falta para lograr resolver el objetivo del caso solicitado.</p>
                            </div>
                         </div>
                      </div>
@@ -251,7 +299,7 @@
                            <div class="unit-4-icon mr-4"><span class="text-primary icon-home"></span></div>
                            <div>
                               <h3>A domicilio</h3>
-                              <p>¿Tiene el teléfono pinchado o simplemente prefiere hablar cara a cara? Indíquenos el lugar de reunión y acudiremos.</p>
+                              <p>¿Tiene el teléfono pinchado o simplemente prefiere la comodidad de su hogar? Indíquenos el lugar de reunión y acudiremos.</p>
                            </div>
                         </div>
                      </div>
@@ -277,7 +325,7 @@
                </div>
             </section>
          </div>
-         <!--
+         <?php /*
             <section class="site-section" id="work-section">
               <div class="container">
                 <div class="row mb-5 justify-content-center">
@@ -392,62 +440,9 @@
                 </div>
               </div>
             </section>
-            -->
-         <!--
-            <div class="site-section" id="about-section">
-              <div class="container">
-                <div class="row mb-5">
-                  
-                  <div class="col-md-5 ml-auto mb-5 order-md-2" data-aos="fade">
-                    <img src="images/about_1.jpg" alt="Image" class="img-fluid rounded">
-                  </div>
-                  <div class="col-md-6 order-md-1" data-aos="fade">
-            
-                    <div class="row">
-            
-                      <div class="col-12">
-                        <div class="text-left pb-1">
-                          <h2 class="text-black h1 site-section-heading">Sobre nosotros</h2>
-                        </div>
-                      </div>
-                      <div class="col-12 mb-4">
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet incidunt magnam corrupti, odit eos harum quaerat nostrum voluptatibus aspernatur eligendi accusantium cum, impedit blanditiis voluptate commodi doloribus, nemo dignissimos recusandae.</p>
-                      </div>
-                      <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                        <div class="unit-4">
-                          <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-phonelink"></span></div>
-                          <div>
-                            <h3>Web &amp; Mobile Specialties</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis consect.</p>
-                            <p class="mb-0"><a href="#">Learn More</a></p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-md-12 mb-md-5 mb-0 col-lg-6">
-                        <div class="unit-4">
-                          <div class="unit-4-icon mr-4 mb-3"><span class="text-secondary icon-extension"></span></div>
-                          <div>
-                            <h3>Intuitive Thinkers</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis.</p>
-                            <p class="mb-0"><a href="#">Learn More</a></p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </div>
-            -->
+            */ ?>
+         
          <section class="site-section testimonial-wrap">
-            <div class="container">
-               <div class="row justify-content-center">
-                  <div class="col-md-8 text-center">
-                     <h2 class="text-black h1 site-section-heading text-center">Testimonios</h2>
-                  </div>
-               </div>
-            </div>
             <div class="slide-one-item home-slider owl-carousel">
                <div>
                   <div class="testimonial">
@@ -463,7 +458,7 @@
                <div>
                   <div class="testimonial">
                      <blockquote class="mb-5">
-                        <p>&ldquo;Algo sobre atropellar a alguien, que como en la foto aparece el coche manchado y el tipo tirado por atrás pues quedará gracioso. XD&rdquo;</p>
+                        <p>&ldquo;Gracias a Solution4U pude librarme de que me acusaran de acabar en prisión por un accidente en el que no tenía culpa.&rdquo;</p>
                      </blockquote>
                      <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="images/testimonios/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
@@ -474,7 +469,7 @@
                <div>
                   <div class="testimonial">
                      <blockquote class="mb-5">
-                        <p>&ldquo;Problema con el negocio o lo que sea, pero la temática tiene que ser sí o sí sobre trajes de novios. ¿Por qué? Bueno... cosas mías. (?)&rdquo;</p>
+                        <p>&ldquo;Estoy muy agradecido a Solution4U ya que gracias a ellos pude llevar mi negocio de trajes de novios a buen puerto y solucionar los problemas de la licencia.&rdquo;</p>
                      </blockquote>
                      <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="images/testimonios/person_4.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
@@ -485,11 +480,11 @@
                <div>
                   <div class="testimonial">
                      <blockquote class="mb-5">
-                        <p>&ldquo;Ya hemos puesto un ejemplo de particulares, otro de un negocio, otro un arreglo de algo más criminal, éste podría ser de algunos policías que agradecen la colaboración con algún caso.&rdquo;</p>
+                        <p>&ldquo;La policía de Pasadena se siente orgullosa de haber podido colaborar con Solution4U para resolver uno de los casos más importantes de nuestro distrito.&rdquo;</p>
                      </blockquote>
                      <figure class="mb-4 d-flex align-items-center justify-content-center">
                         <div><img src="images/testimonios/person_1.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
-                        <p>Teresa Walker</p>
+                        <p>Teresa Walker - Superintendente</p>
                      </figure>
                   </div>
                </div>
@@ -497,16 +492,12 @@
          </section>
          <section class="site-section bg-light" id="contact-section">
             <div class="container">
-               <div class="row mb-5">
-                  <div class="col-12 text-center">
-                     <h2 class="text-black h1 site-section-heading">Contacto</h2>
-                  </div>
-               </div>
                <div class="row">
                   <div class="col-md-7 mb-5">
                      <img alt="Localización" src="images/mapa.jpg" class="mapa">
                   </div>
                   <div class="col-md-5">
+                     <h2 class="text-black h1 site-section-heading">Contacto</h2>
                      <div class="p-4 mb-3 bg-white">
                         <p class="mb-0 font-weight-bold">Dirección</p>
                         <p class="mb-4">Del Perro Heights apt. 20, Del Perro, Los Santos</p>
@@ -525,42 +516,10 @@
                   <div class="col-md-12">
                      <div class="row">
                         <div class="col-md-12 text-center">
-                           <!--col-md-5-->
                            <p>El contenido de esta web es utilizado para juegos de rol, nada es real.</p>
                         </div>
-                        <!--
-                           <div class="col-md-3 ml-auto">
-                             <h2 class="footer-heading mb-4">Features</h2>
-                             <ul class="list-unstyled">
-                               <li><a href="#">About Us</a></li>
-                               <li><a href="#">Services</a></li>
-                               <li><a href="#">Testimonials</a></li>
-                               <li><a href="#">Contact Us</a></li>
-                             </ul>
-                           </div>
-                           <div class="col-md-3">
-                             <h2 class="footer-heading mb-4">Follow Us</h2>
-                             <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                             <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                             <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                             <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
-                           </div>
-                           -->
                      </div>
                   </div>
-                  <!--
-                     <div class="col-md-3">
-                       <h2 class="footer-heading mb-4">Subscribe Newsletter</h2>
-                       <form action="#" method="post">
-                         <div class="input-group mb-3">
-                           <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
-                           <div class="input-group-append">
-                             <button class="btn btn-primary text-white" type="button" id="button-addon2">Send</button>
-                           </div>
-                         </div>
-                       </form>
-                     </div>
-                     -->
                </div>
                <div class="row pt-1 text-center">
                   <div class="col-md-12">
