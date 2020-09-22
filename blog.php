@@ -1,14 +1,14 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
     <head>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript">
         </script>
         <script>
             //This example shows getting a local ATOM file. I am assuming that you will be using a proxy to fetch the feed as you 
             //are getting it from a remote source
 
             //get the feed
-            $.get("http://laramontavadaw.blogspot.com/feeds/posts/default", function(data){
+            $.get("https://laramontavadaw.blogspot.com/feeds/posts/default", function(data){
 
                 //if XML loaded successfully find all blog entries
                 html = "";
