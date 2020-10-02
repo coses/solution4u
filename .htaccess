@@ -10,6 +10,10 @@ Options +FollowSymLinks -MultiViews
 RewriteEngine On
 RewriteBase /
 
+<Files ~ "\.(jpg|jpeg|png|gif)$">
+   order deny,allow
+   allow from all
+</Files>
 
 # external redirect from blog.php to /blog
 #RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\index\.php?sec=blog [NC]
@@ -18,11 +22,9 @@ RewriteBase /
 # internal redirect from /blog to blog.php
 RewriteRule ^blog$ index.php?sec=blog [L,NC]
 
-
- # generate url
-   RewriteRule ^blog/(.*)$  index.php?sec=blog&sub=articulo&url=$1 [NC,L,QSA]
+# generate url
+RewriteRule ^blog/(.*)$  index.php?sec=blog&sub=articulo&url=$1 [NC,L,QSA]
 
 
 #-- error 404
-
 ErrorDocument 404 /sections/error/404page.php
