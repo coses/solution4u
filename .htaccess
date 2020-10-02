@@ -1,7 +1,28 @@
+###RewriteEngine On
+###RewriteCond %{HTTPS} off
+###RewriteCond %{HTTP:X-Forwarded-Proto} =http
+###RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+
+###ErrorDocument 404 /404page.php
+
+Options +FollowSymLinks -MultiViews
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteCond %{HTTP:X-Forwarded-Proto} =http
-RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteBase /
 
 
-ErrorDocument 404 /404page.php
+# external redirect from blog.php to /blog
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\index\.php?sec=blog [NC]
+#RewriteRule ^ blog [R=301,L,NC]
+
+# internal redirect from /blog to blog.php
+RewriteRule ^blog$ index.php?sec=blog [L,NC]
+
+
+ # generate url
+   RewriteRule ^blog/(.*)$  index.php?sec=blog&sub=articulo&url=$1 [NC,L,QSA]
+
+
+#-- error 404
+
+ErrorDocument 404 /sections/error/404page.php
