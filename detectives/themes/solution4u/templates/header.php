@@ -102,7 +102,7 @@
                         <li><a href="<?php echo $linkMenu; ?>#home-section" class="nav-link">Inicio</a></li>
                         <li><a href="<?php echo $linkMenu; ?>#about-section" class="nav-link">Sobre nosotros</a></li>
                         <li><a href="<?php echo $linkMenu; ?>#services-section" class="nav-link">Servicios</a></li>
-                        <li><a href="<?php echo $linkMenu; ?>blog" class="nav-link<?php echo $linkActivo; ?>">Blog</a></li>
+                        <li><a href="<?php echo $linkMenu; ?>#blog" class="nav-link">Blog</a></li>
                         <li><a href="<?php echo $linkMenu; ?>#contact-section" class="nav-link">Contacto</a></li>
                     </ul>
                 </nav>
