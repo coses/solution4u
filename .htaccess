@@ -6,24 +6,24 @@
 
 ###ErrorDocument 404 /404page.php
 
-Options +FollowSymLinks -MultiViews
-RewriteEngine On
-RewriteBase /
+#Options +FollowSymLinks -MultiViews
+#RewriteEngine On
+#RewriteBase /
 
-<Files ~ "\.(jpg|jpeg|png|gif)$">
-   order deny,allow
-   allow from all
-</Files>
+#<Files ~ "\.(jpg|jpeg|png|gif)$">
+#   order deny,allow
+#   allow from all
+#</Files>
 
-# external redirect from blog.php to /blog
-#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\index\.php?sec=blog [NC]
-#RewriteRule ^ blog [R=301,L,NC]
+## external redirect from blog.php to /blog
+##RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\index\.php?sec=blog [NC]
+##RewriteRule ^ blog [R=301,L,NC]
 
-# internal redirect from /blog to blog.php
-RewriteRule ^blog$ index.php?sec=blog [L,NC]
+## internal redirect from /blog to blog.php
+#RewriteRule ^blog$ index.php?sec=blog [L,NC]
 
-# generate url
-RewriteRule ^blog/(.*)$  index.php?sec=blog&sub=articulo&url=$1 [NC,L,QSA]
+## generate url
+#RewriteRule ^blog/(.*)$  index.php?sec=blog&sub=articulo&url=$1 [NC,L,QSA]
 
 
 #-- error 404
