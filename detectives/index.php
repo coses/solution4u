@@ -1,4 +1,4 @@
-<!DOCTYPE html>aaaaaaaaaaaaaaaaaaaaaaaaaaaae
+<!DOCTYPE html>
 <?php include 'config/vars.php'; ?>
 <html lang="es">
    <head>
