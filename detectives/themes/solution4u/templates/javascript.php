@@ -23,4 +23,4 @@
     showCursor: true
   });
 </script>
-<script src="<?php echo SITE_URL; ?>js/main.js"></script>
+<script src="<?php echo SITE_URL.SITE_FOLDER; ?>js/main.js"></script>
